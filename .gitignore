@@ -61,3 +61,4 @@ buck-out/
 /ios/Pods/
 /vendor/bundle/
 Gemfile.lock
+ios/podfile.lock
