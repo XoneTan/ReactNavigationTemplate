@@ -13,10 +13,3 @@ function Navigator() {
     
 }
 export default Navigator
-// return(
-//     <NavigationContainer>
-//         <Stack.Navigator initialRouteName='Home'>
-//             <Stack.Screen name='Home' component={Home}/>
-//         </Stack.Navigator>
-//     </NavigationContainer>
-// );

@@ -12,4 +12,5 @@ function Navigator() {
         </Stack.Navigator>
     )
 }
+// update
 export default Navigator
