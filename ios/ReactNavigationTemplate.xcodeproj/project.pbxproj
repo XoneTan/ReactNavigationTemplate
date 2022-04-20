@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ReactNavigationTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNavigationTemplateTests.m */; };
-		10FB467CF27455F2F88B697F /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB60EC2CC6A8099C06C064C3 /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1559D2208F3E55856CEB8EB2 /* libPods-ReactNavigationTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD93210D5A62B8C50A72179 /* libPods-ReactNavigationTemplate.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A71571F52C06CE3B76831D5F /* libPods-ReactNavigationTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F29707D28843AC9E5F588 /* libPods-ReactNavigationTemplate.a */; };
+		FBBB9DC5FC7C5AEAFB7F7EDB /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCC747905A325049CBD5EE5 /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003E5C18BFA779517B070D31 /* Pods-ReactNavigationTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationTemplate.release.xcconfig"; path = "Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* ReactNavigationTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNavigationTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactNavigationTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNavigationTemplateTests.m; sourceTree = "<group>"; };
@@ -37,12 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNavigationTemplate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNavigationTemplate/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNavigationTemplate/main.m; sourceTree = "<group>"; };
-		3A953D600041FDB6ADD98800 /* Pods-ReactNavigationTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationTemplate.debug.xcconfig"; path = "Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		43694937153C3521295A1EF5 /* Pods-ReactNavigationTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationTemplate.release.xcconfig"; path = "Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNavigationTemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A52052E4F02558A19E4B7B53 /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAD93210D5A62B8C50A72179 /* libPods-ReactNavigationTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNavigationTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9AF380E3575CE7F757699D0 /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
-		EB60EC2CC6A8099C06C064C3 /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F6F016381B484F53C4ED6D /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		A084EE1F47BDB3A0A98C682E /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B77F29707D28843AC9E5F588 /* libPods-ReactNavigationTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNavigationTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCC747905A325049CBD5EE5 /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D5351DD08F4151F7A9100A /* Pods-ReactNavigationTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigationTemplate.debug.xcconfig"; path = "Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10FB467CF27455F2F88B697F /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a in Frameworks */,
+				FBBB9DC5FC7C5AEAFB7F7EDB /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1559D2208F3E55856CEB8EB2 /* libPods-ReactNavigationTemplate.a in Frameworks */,
+				A71571F52C06CE3B76831D5F /* libPods-ReactNavigationTemplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				AAD93210D5A62B8C50A72179 /* libPods-ReactNavigationTemplate.a */,
-				EB60EC2CC6A8099C06C064C3 /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a */,
+				B77F29707D28843AC9E5F588 /* libPods-ReactNavigationTemplate.a */,
+				CBCC747905A325049CBD5EE5 /* libPods-ReactNavigationTemplate-ReactNavigationTemplateTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A953D600041FDB6ADD98800 /* Pods-ReactNavigationTemplate.debug.xcconfig */,
-				003E5C18BFA779517B070D31 /* Pods-ReactNavigationTemplate.release.xcconfig */,
-				A52052E4F02558A19E4B7B53 /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig */,
-				B9AF380E3575CE7F757699D0 /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig */,
+				D2D5351DD08F4151F7A9100A /* Pods-ReactNavigationTemplate.debug.xcconfig */,
+				43694937153C3521295A1EF5 /* Pods-ReactNavigationTemplate.release.xcconfig */,
+				A084EE1F47BDB3A0A98C682E /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig */,
+				89F6F016381B484F53C4ED6D /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,11 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNavigationTemplateTests" */;
 			buildPhases = (
-				50564D1D1ED2DB0062075237 /* [CP] Check Pods Manifest.lock */,
+				A5E39D5A60D66AD6F683DE05 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				E2E680553B1A4470F3D50C17 /* [CP] Copy Pods Resources */,
+				B8FA6D5AD8E887802129F830 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,13 +175,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNavigationTemplate" */;
 			buildPhases = (
-				46D39A301DC6C895BBD48F34 /* [CP] Check Pods Manifest.lock */,
+				66CFEF4EBD46034FFDECF624 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				2908E679A1808B661C709DB5 /* [CP] Copy Pods Resources */,
+				CB6BFEE2CC4D80FC83CD4D0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,24 +262,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		2908E679A1808B661C709DB5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46D39A301DC6C895BBD48F34 /* [CP] Check Pods Manifest.lock */ = {
+		66CFEF4EBD46034FFDECF624 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,7 +284,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		50564D1D1ED2DB0062075237 /* [CP] Check Pods Manifest.lock */ = {
+		A5E39D5A60D66AD6F683DE05 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,7 +306,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E2E680553B1A4470F3D50C17 /* [CP] Copy Pods Resources */ = {
+		B8FA6D5AD8E887802129F830 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,6 +321,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests/Pods-ReactNavigationTemplate-ReactNavigationTemplateTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB6BFEE2CC4D80FC83CD4D0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNavigationTemplate/Pods-ReactNavigationTemplate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -392,7 +392,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A52052E4F02558A19E4B7B53 /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = A084EE1F47BDB3A0A98C682E /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -419,7 +419,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9AF380E3575CE7F757699D0 /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig */;
+			baseConfigurationReference = 89F6F016381B484F53C4ED6D /* Pods-ReactNavigationTemplate-ReactNavigationTemplateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -443,7 +443,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A953D600041FDB6ADD98800 /* Pods-ReactNavigationTemplate.debug.xcconfig */;
+			baseConfigurationReference = D2D5351DD08F4151F7A9100A /* Pods-ReactNavigationTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -469,7 +469,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 003E5C18BFA779517B070D31 /* Pods-ReactNavigationTemplate.release.xcconfig */;
+			baseConfigurationReference = 43694937153C3521295A1EF5 /* Pods-ReactNavigationTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

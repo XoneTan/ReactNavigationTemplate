@@ -8,6 +8,7 @@ import SplashScreen from "./screens/Splash";
 import { State } from "react-native-gesture-handler";
 import * as React from 'react';
 import reactNativeSecureStorage from "react-native-secure-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export const AuthContext = React.createContext();
 
@@ -21,7 +22,7 @@ function App () {
                     return{
                         ...prevState,
                         userToken: action.token,
-                        isLoading: false
+                        isLoading: false,
                     };
                 case 'SIGN_IN':
                     return{
@@ -29,7 +30,7 @@ function App () {
                         isSignout: false,
                         userToken: action.token,
                     };
-                case 'SING_OUT':
+                case 'SIGN_OUT':
                     return{
                         ...prevState,
                         isSignout: true,
@@ -46,15 +47,15 @@ function App () {
     useEffect(() => {
         const bootstrapAsync = async () =>{
             let userToken;
-            // userToken = await SecureInternalStorage.getItem(userToken)
+            // userToken = SecureInternalStorage.getItem(userToken)
             try{
-                userToken = await SecureInternalStorage.getItem(userToken)
+                userToken = await SecureInternalStorage.getItem('userToken')
             }
             catch (e){
                 console.warn('failed at taking user token')
             }
             dispatch({type: 'RESTORE_TOKEN', token: userToken})
-        }
+        };
         bootstrapAsync();
     }, []);
 
@@ -65,18 +66,18 @@ function App () {
             // We will also need to handle errors if sign in failed
             // After getting token, we need to persist the token using `SecureStore` or any other encrypted storage
             // In the example, we'll use a dummy token
-            await SecureInternalStorage.setItem(userToken,'dummy-auth-token');
+            await SecureInternalStorage.setItem('userToken','dummy-auth-token');
             dispatch({ type: 'SIGN_IN', token: 'dummy-auth-token' });
           },
           signOut: async() => {
-            await SecureInternalStorage.removeItem(userToken);
+            // await SecureInternalStorage.removeItem('userToken');
             dispatch({ type: 'SIGN_OUT' })},
           signUp: async (data) => {
             // In a production app, we need to send user data to server and get a token
             // We will also need to handle errors if sign up failed
             // After getting token, we need to persist the token using `SecureStore` or any other encrypted storage
             // In the example, we'll use a dummy token
-            await SecureInternalStorage.setItem(userToken,'dummy-auth-token');
+            await SecureInternalStorage.setItem('userToken','dummy-auth-token');
             dispatch({ type: 'SIGN_IN', token: 'dummy-auth-token' });
           },
         }),
@@ -86,9 +87,9 @@ function App () {
     return(
         <AuthContext.Provider value={authContext}>
             <NavigationContainer>
-              <Drawer.Navigator initialRouteName="Login" screenOptions={{headerShown:false}}>
+              <Drawer.Navigator screenOptions={{headerShown:false}}>
                   {state.isLoading ? (
-                      <Drawer.Screen name="plash" component={SplashScreen}/>
+                      <Drawer.Screen name="Splash" component={SplashScreen}/>
                   ) : state.userToken == null ?(
                         <Drawer.Screen name="Login" component={LoginStack}/>    
                   ):(<Drawer.Screen name="Main" component={MainStack}/>)}
